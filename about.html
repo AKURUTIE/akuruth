@@ -4,7 +4,10 @@
           <style>
 
 
-
+            body{
+                padding: 0;
+                margin: 0;
+            }
 
 
             .headerx{
@@ -18,9 +21,13 @@
             
             .header2{
                 background-image: url(style/img/im11.jpeg);
-                height: 100%;
-                
-            
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                height: 500px;
+                position: relative;
+                top: -50px;
+
                }
                
                
@@ -28,11 +35,11 @@
             
             
             .wrapper{
-                color: whitesmoke;
                 margin: 0 auto;
-                width: 50%;
+                width: 100%;
                 position: sticky;
-                font-size: 0PX;
+                background:rgba(0, 0, 0, 0.7);
+                display: flex;
                 
                 }
                 
@@ -54,7 +61,11 @@
                 font-weight: bold;
                 }
                 
-                
+                .wrapper ul li a{
+                    color: ghostwhite;
+                    font-size: 17px;
+
+                }
                 
                 
                 .wrapper ul ul {
@@ -94,9 +105,9 @@
             <div class="wrapper">
 
                 <ul>
-                    <li><a href="contact.html">contact</a></li>
-                          <li><a href="about.html">about</a></li>
-                          <li><a href="services.html">services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                          <li><a href="about.html">About</a></li>
+                          <li><a href="services.html">Services</a></li>
                   <li><a href="sign-up.html">Sign-up</a></li>
                   <li><a href="index.html">Home</a></li>
                 </ul>  
@@ -108,8 +119,8 @@
 <br>
 <br>
 <br>
-<div class="header2">
-    <p class="headerx"> CAMS is a platform that give student acess to academi materials
+    <div class="header2">
+    <p class="headerx"> CAMS is a platform that give student acess to academic materials
 
         in an organised and interesting manner for the betterment of their learning skills.
         </p>    
